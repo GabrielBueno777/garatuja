@@ -1,4 +1,10 @@
 # garatuja
+
+function soma(a:number, b:number): number {
+    return  a + b
+}
+let z = soma
+console.log(z)
 texto sobre js pra eu do futuro
 
 

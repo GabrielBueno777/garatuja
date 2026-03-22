@@ -1,10 +1,16 @@
 # garatuja
 
 
-texto sobre js pra eu do futuro
+---texto sobre js pra eu do futuro---
 
+JavaScript é uma linguagem de programação usada pra deixar sites mais interativos e funcionais.
+É com ele que botões funcionam, textos mudam, formulários são verificados e várias ações acontecem na tela.
+Pra lembrar do básico: variável guarda valor, função executa uma ação, objeto junta informações, e método é uma função que fica dentro de um objeto.
+O JavaScript trabalha junto com HTML e CSS.
+o HTML monta a estrutura, o CSS deixa bonito, e o JavaScript faz tudo funcionar.
 
 ---texto sobre css pra eu do futuro---
+
 -Pra mim o css é uma das partes mais importantes de um site, pois á a linguagem de estilização(deixar a pagina bonita e organizada).
 nesse css, consigo: centralizar imagens, mudar tamanhos, posição dela, mudar a cor do fundo do site, a cor das letras, tamanho das letras, consigo deixar ele usuável
 para qualquer dispositivo (celular, computador, notebook, microondas(brincadeira kkkkk)).Para fazer não é tão dificil, você precisa ter o HTML, que é a base de qualquer site,

@@ -24,68 +24,83 @@ você também tem que linkar o css ao HTML, para o sistema conseguir passar essa
 
 
 
-#js vs Ts vs java
-explicar como funciona cada
---variable--
---atribute--
---function--
---method--
+Diferenças entre Java, JS (JavaScript) e TS (TypeScript)
+POO
+Classe
+Objeto
+Atributo
+Método
+Getters e Setters
+Construtor
+Herança
+Encapsulamento
+Polimorfismo
 ---------------------------------------------------------------------------------------------------------------
 ------resposta------
+-- difereça de java, js e ts.v --
 
-*variable*
----------------------------------------------------------------------------------------------------------------
--nos tres casos servem para guardar valor-
----------------------------------------------------------------------------------------------------------------
-no JS a varivel guarda um valor e é criada, mas não é preciso informar o tipo, pois a linguagem ja identifica.
----------------------------------------------------------------------------------------------------------------
-no TS a variavel também guarda um valor, mas normalmente voce informa um tipo, como, numero e texto.
----------------------------------------------------------------------------------------------------------------
-já no java também é guardado o valor, mas o tipo tem q ser informado obrigatoriamente.
----------------------------------------------------------------------------------------------------------------
-*atribute*
----------------------------------------------------------------------------------------------------------------
--nos tres oatribute e uma informacao que pertence a um objeto ou classe-
----------------------------------------------------------------------------------------------------------------
-no JS o atributo fica dentro de um objeto.
----------------------------------------------------------------------------------------------------------------
-no TS o atributo fica dentro de um objeto ou classe, mas pode ter tipo definido.
----------------------------------------------------------------------------------------------------------------
-já no java fica normalmente dentro de uma classe e representa uma caracteristica do objeto.
+Eu entendo que Java, JavaScript e TypeScript são linguagens de programação diferentes. O Java é mais usado para 
+criar programas maiores, aplicativos e sistemas. O JavaScript é muito usado em sites para fazer animações, botões
+e coisas interativas. O TypeScript é parecido com JavaScript, mas ajuda a deixar o código mais organizado e com 
+menos erros.
+
 ---------------------------------------------------------------------------------------------------------------
 
+POO (Programação Orientada a Objetos)
 
+POO é uma forma de programar usando objetos, parecida com coisas da vida real. Ela ajuda a organizar melhor o código e facilita criar programas maiores.
 
-===============================================================================================================
-
-
-*function*
----------------------------------------------------------------------------------------------------------------
--Nos tres é um bloco de codigo para executar uma ação-
----------------------------------------------------------------------------------------------------------------
-No JavaScript, a função é bem flexível e não precisa declarar tipos.
----------------------------------------------------------------------------------------------------------------
-No TypeScript, é parecido com JavaScript, mas os parâmetros e o retorno podem ter tipos definidos.
----------------------------------------------------------------------------------------------------------------
-No Java, a função já segue uma estrutura mais rígida e precisa declarar o tipo de retorno e dos parâmetros.
----------------------------------------------------------------------------------------------------------------
-*methood*
----------------------------------------------------------------------------------------------------------------
--Nos tres casos method, é uma funcao que fica dentro de um objeto ou classe-
----------------------------------------------------------------------------------------------------------------
-No JavaScript, um método é uma função dentro de um objeto.
----------------------------------------------------------------------------------------------------------------
-TypeScript é parecido com JavaScript, mas com mais organização por causa dos tipos.
----------------------------------------------------------------------------------------------------------------
-Java é mais rígido e estruturado, exigindo tipos e usando classes com mais força.
 ---------------------------------------------------------------------------------------------------------------
 
+Classe
 
+Classe é como um molde que serve para criar objetos. Ela define como o objeto vai ser e o que ele pode fazer.
 
-================================================================================================================
-
-
-
--Classe e objeto-
 ---------------------------------------------------------------------------------------------------------------
-classe é a ideia de uma coisa, enquanto o objeto e essa coisa
+
+Objeto
+
+Objeto é algo criado a partir de uma classe. É a parte que realmente existe dentro do programa.
+
+---------------------------------------------------------------------------------------------------------------
+
+Atributo
+
+Atributo é uma característica do objeto, como nome, cor, idade ou peso.
+
+---------------------------------------------------------------------------------------------------------------
+
+Método
+
+Método é uma ação que o objeto pode fazer, como ligar, desligar, andar ou calcular.
+
+---------------------------------------------------------------------------------------------------------------
+
+Getters e Setters
+
+Getters e setters servem para pegar ou mudar informações de um objeto. O getter pega o valor e o setter altera o valor.
+---------------------------------------------------------------------------------------------------------------
+
+Construtor
+
+Construtor é uma parte usada quando o objeto é criado. Ele ajuda a colocar informações iniciais no objeto.
+
+---------------------------------------------------------------------------------------------------------------
+
+Herança
+
+Herança acontece quando uma classe pode usar características de outra classe. Isso ajuda a não repetir código.
+
+---------------------------------------------------------------------------------------------------------------
+
+Encapsulamento
+
+Encapsulamento serve para proteger as informações do objeto, deixando o acesso mais controlado.
+
+---------------------------------------------------------------------------------------------------------------
+
+Polimorfismo
+
+Polimorfismo acontece quando uma mesma ação pode funcionar de formas diferentes dependendo do objeto.
+
+---------------------------------------------------------------------------------------------------------------

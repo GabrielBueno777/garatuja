@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Música - Gusttavo Lima</title>
+  <style>
+    body>* {
+      border: 2px solid rgb(0, 0, 10);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    :root {
+      --grid-info-size: 250px;
+    }
+
+    html,
+    body {
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      display: grid;
+      grid-template-areas: "social info content" "footer footer footer";
+      grid-template-columns: auto var(--grid-info-size) 1fr;
+      grid-template-rows: 1fr 60px;
+      gap: .5rem;
+      padding: .5rem;
+      min-height: 100svh;
+    }
+
+    aside {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      grid-area: info;
+
+      .thumb {
+        width: calc(var(--grid-info-size) - 20px);
+        height: calc(var(--grid-info-size) - 20px);
+        background-color: rgb(253, 228, 5);
+        border-radius: 50%;
+        flex: none;
+        z-index: 2;
+        height: 220px;
+
+        img {
+          width: 100px;
+          height: 100px;
+          object-fit: cover;
+          overflow: clip;
+        }
+      }
+
+      section {
+        background-color: #1C1C1C;
+        width: 100%;
+        height: 100%;
+        margin-top: -4rem;
+        padding-top: 4rem;
+        z-index: 1;
+        clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 0);
+        color: white;
+      }
+    }
+
+    main {
+      grid-area: content;
+      position: relative;
+      padding: 2rem;
+
+      &::before {
+        content: "";
+        background-color: #1C1C1C;
+        position: absolute;
+        inset: 0;
+        z-index: -1;
+        clip-path: polygon(0 calc(var(--grid-info-size) -5.3rem), 0 100%, 100% 100%, 100% calc(var(--grid-info-size) - 8rem));
+      }
+
+      h1 {
+        color: white;
+      }
+    }
+
+    .gallery img:hover {
+      transform: scale(1.05);
+      transition: 0.7;
+    }
+
+    .social {
+      grid-area: social;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+
+      img {
+        width: 2rem;
+        height: 2rem;
+        object-fit: cover;
+      }
+    }
+
+    footer {
+      grid-area: footer;
+    }
+
+    #logosrs {
+      height: 2rem;
+      width: 2rem;
+    }
+
+    .titulo {
+      color: white;
+    }
+
+    /* celular */
+    @media (max-width: 600px) {
+      body {
+        font-size: 14px;
+      }
+    }
+
+    /* tablet */
+    @media (max-width: 900px) {
+      body {
+        font-size: 16px;
+      }
+    }
+
+    /* notebook / desktop */
+    @media (min-width: 901px) {
+      body {
+        font-size: 18px;
+      }
+    }
+
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+
+    .card {
+      flex: 1 1 300px;
+    }
+  </style>
+</head>
+
+<body>
+  <aside>
+    <img src="capa.png" class="thumb">
+    <section>Nivaldo Batista Lima, amplamente conhecido como Gusttavo
+      Lima, é um dos maiores nomes da música sertaneja
+      brasileira contemporânea. Nascido em 3 de setembro de 1989 em
+      Presidente Olegário, Minas Gerais, sua trajetória é um exemplo
+      de ascensão vinda de origens humildes.</section>
+  </aside>
+  <main>
+    <article>
+      <div class="titulo">
+        <h1>Gusttavo Lima</h1>
+        <p>
+          Músicas mais famosas do Gusttavo Lima.
+        </p>
+      </div>
+
+    </article>
+    <div class="gallery">
+
+      <a href="https://youtu.be/pgHrRi91-Mk" target="_blank">
+        <img src="eu nao iria.jpg" alt="Eu Não Iria" width="310" height="350">
+      </a>
+
+      <a href="https://youtu.be/-UUe7g8-E0k" target="_blank">
+        <img src="desejo mortal.jfif" alt="Desejo Mortal" width="310" height="350">
+      </a>
+
+      <a href="https://youtu.be/SvQx5FMEVmE" target="_blank">
+        <img src="AGENTE FEZ AMOR.jpg" alt="Agente Faz Amor" width="310" height="350">
+      </a>
+
+      <a href="https://youtu.be/TOFnMndGhco" target="_blank">
+        <img src="morar nesse motel.jfif" alt="morar nesse motel" width="310" height="350">
+      </a>
+
+      <a href="https://youtu.be/14C28JSO-sg" target="_blank">
+        <img src="bloqueado.jpg" alt="Bloqueado" width="310" height="350">
+      </a>
+
+      <a href="https://youtu.be/B9Mi1-qn_PQ" target="_blank">
+        <img src="apelido carinhoso.jpg" alt="Apelido Carinhoso" width="310" height="350">
+      </a>
+
+      <a href="https://youtu.be/rTJSWmgbVwA" target="_blank">
+        <img src="termina comigo antes.jpg" alt="Termina comigo Antes" width="310" height="350">
+      </a>
+
+      <a href="https://youtu.be/_7DKuv_xsuY" target="_blank">
+        <img src="ficha limpa.jpg" alt="Ficha Limpa" width="310" height="350">
+      </a>
+      <a href="https://youtu.be/bN5xWBjYvQ0?si=1xQSH9cCz2i9flw5" target="_blank">
+        <img src="milu.webp" alt="milu" width="310" height="350">
+      </a>
+
+    </div>
+  </main>
+
+  <div class="social">
+    <a href="https://www.facebook.com/gusttavolimaoficial/?locale=pt_BR" id="logosrs" target="_blank">
+      <img src="https://api.iconify.design/ph:facebook-logo-fill.svg" alt="facebook"></a>
+    <a href="https://x.com/gusttavo_lima" id="logosrs" target="_blank">
+      <img src="https://api.iconify.design/ph:twitter-logo-fill.svg" alt="twitter"></a>
+    <a href="https://www.instagram.com/gusttavolima/" id="logosrs" target="_blank">
+      <img src="https://api.iconify.design/ph:instagram-logo-fill.svg" alt="instagram"></a>
+  </div>
+  <footer>
+    <p>&copy; 2026 Gabriel. All rights reserved.</p>
+  </footer>
+</body>

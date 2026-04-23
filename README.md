@@ -79,6 +79,7 @@ Método é uma ação que o objeto pode fazer, como ligar, desligar, andar ou ca
 Getters e Setters
 
 Getters e setters servem para pegar ou mudar informações de um objeto. O getter pega o valor e o setter altera o valor.
+
 ---------------------------------------------------------------------------------------------------------------
 
 Construtor

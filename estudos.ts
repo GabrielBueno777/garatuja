@@ -76,5 +76,16 @@
     //         console.error(error.message);
     //     }
     // }
-
-
+    //const valor2: number = 20;
+    //const valor3: number = 0;
+    //const valor1: number = 10;
+    //
+    //if (valor3 == valor1 && valor3 == valor2) {
+    //    console.log("O triangulo é equilátero.");
+    //} 
+    //else if (valor3 == valor1 || valor3 == valor2) {
+    //    console.log("O triangulo é isósceles.");
+    //} 
+    //else  if(valor1 != valor2 && valor1 != valor3 && valor2 != valor3) {
+    //    console.log("O triangulo é escaleno.");
+    //}

@@ -1,0 +1,59 @@
+class Triangulo {
+  private readonly lado1: number;
+  private readonly lado2: number;
+  private readonly lado3: number;
+
+  constructor(pLado1: number, pLado2: number, pLado3: number) {
+    if (
+      pLado1 <= 0 ||
+      pLado2 <= 0 ||
+      pLado3 <= 0 ||
+      pLado1 + pLado2 <= pLado3 ||
+      pLado1 + pLado3 <= pLado2 ||
+      pLado2 + pLado3 <= pLado1
+    ) {
+      throw new Error("Os valores não formam um triângulo válido");
+    }
+
+    this.lado1 = pLado1;
+    this.lado2 = pLado2;
+    this.lado3 = pLado3;
+  }
+
+  get tipo(): string {
+    if (this.lado1 === this.lado2 && this.lado2 === this.lado3) {
+      return "equilátero";
+    }
+
+    if (this.lado1 === this.lado2 || this.lado2 === this.lado3 || this.lado1 === this.lado3) {
+      return "isósceles";
+    }
+
+    return "escaleno";
+  }
+
+  get perim(): number {
+    return this.lado1 + this.lado2 + this.lado3;
+  }
+
+  private get semiperim(): number {
+    return this.perim / 2;
+  }
+
+  get area(): number {
+    const p = this.semiperim;
+    const a = this.lado1;
+    const b = this.lado2;
+    const c = this.lado3;
+    const area = Math.sqrt(p * (p - a) * (p - b) * (p - c));
+    return area;
+  }
+}
+
+const tri1 = new Triangulo(10, 10, 10);
+const tri2 = new Triangulo(10, 10, 5);
+const tri3 = new Triangulo(10, 5, 6);
+
+console.log(tri1.tipo, tri1.perim);
+console.log(tri2.tipo, tri2.perim);
+console.log(tri3.tipo, tri3.perim);

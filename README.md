@@ -6,7 +6,7 @@ e como o javascriptc como depois vou falar tambem, com ele, conseguimos criar "c
 criar uma classe no html e mandar essa classe para o css, linkando o css e mandando o nome da classe para la, para mudarmos a posicao, tamanho, cor e tudo que pode ser mudado de uma escrita
 
 
----texto sobre o html para o eu do futuro---
+---texto sobre o js para o eu do futuro---
 
 JavaScript é uma linguagem de programação usada pra deixar sites mais interativos e funcionais.
 É com ele que botões funcionam, textos mudam, formulários são verificados e várias ações acontecem na tela.
@@ -14,7 +14,7 @@ Pra lembrar do básico: variável guarda valor, função executa uma ação, obj
 O JavaScript trabalha junto com HTML e CSS.
 o HTML monta a estrutura, o CSS deixa bonito, e o JavaScript faz tudo funcionar.
 
----texto sobre o html para o eu do futuro---
+---texto sobre o css para o eu do futuro---
 
 -Pra mim o css é uma das partes mais importantes de um site, pois á a linguagem de estilização(deixar a pagina bonita e organizada).
 nesse css, consigo: centralizar imagens, mudar tamanhos, posição dela, mudar a cor do fundo do site, a cor das letras, tamanho das letras, consigo deixar ele usuável

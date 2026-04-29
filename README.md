@@ -108,15 +108,53 @@ Polimorfismo acontece quando uma mesma ação pode funcionar de formas diferente
 Perguntas e respostas do texto:
 
 1-O que é Abstracao?
+
 Resposta:
 Abstração em POO é o conceito de esconder detalhes internos de funcionamento e mostrar 
 apenas o que é necessário para usar um objeto. Ela facilita o uso e a organização do 
 código, focando apenas nas funções importantes.
 Exemplo:
 
-class TV {
-    void ligar() {
-        System.out.println("TV ligada");
+2-O que é composicao?
+
+Resposta:
+Composição em POO é quando uma classe é formada por objetos de outra classe, criando uma relação de “tem um”.
+Exemplo: um carro tem motor, rodas e portas — essas partes compõem o carro.
+
+3-O que significa "==="?
+
+Resposta:
+Ele serve para ignorar o tipo do texto, nao importando se é String, int, double ou qualquer outro.
+
+4-Como funciona o Getters e Setters?
+
+Resposta:
+Getters e Setters são métodos usados para acessar e modificar atributos privados de uma classe.
+ .Getter → pega/retorna o valor de um atributo
+ .Setter → altera o valor de um atributo
+
+5-Como funciona a programacao estruturada?
+
+Resposta:
+Programação estruturada é quando o código segue uma ordem organizada, passo por passo.
+Ela usa comandos como if, for e funções para deixar o programa mais fácil de entender.
+
+6-Como funciona o Constructor?
+
+Resposta:
+Construtor (constructor) é um método especial de uma classe usado para iniciar um objeto quando ele é criado.
+Ele serve para definir valores iniciais dos atributos e é executado automaticamente ao usar new.
+
+EXEMPLO:
+
+class Pessoa {
+    String nome;
+
+    Pessoa(String n) {
+        nome = n;
     }
 }
 
+USO:
+
+Pessoa p = new Pessoa("Gabriel");

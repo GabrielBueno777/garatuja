@@ -105,3 +105,18 @@ Polimorfismo
 Polimorfismo acontece quando uma mesma ação pode funcionar de formas diferentes dependendo do objeto.
 
 ---------------------------------------------------------------------------------------------------------------
+Perguntas e respostas do texto:
+
+1-O que é Abstracao?
+Resposta:
+Abstração em POO é o conceito de esconder detalhes internos de funcionamento e mostrar 
+apenas o que é necessário para usar um objeto. Ela facilita o uso e a organização do 
+código, focando apenas nas funções importantes.
+Exemplo:
+
+class TV {
+    void ligar() {
+        System.out.println("TV ligada");
+    }
+}
+

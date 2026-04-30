@@ -158,3 +158,10 @@ class Pessoa {
 USO:
 
 Pessoa p = new Pessoa("Gabriel");
+
+---------------------------------------------------------------------------------------------------------------
+Links uteis que possivelmente vou usar:
+
+1- https://icon-sets.iconify.design/>_
+2- https://colorswall.com/palette
+
